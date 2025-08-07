@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gamepad Page Scroller",
+  "version": "1.0",
+  "description": "使用手柄的方向键来滚动网页。",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
