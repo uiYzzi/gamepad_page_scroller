@@ -1,7 +1,7 @@
 // --- 配置区 ---
-// 翻页距离：0.9 代表滚动当前窗口高度的 90%
-// 0.9 类似于 PageDown, 1.0 会滚动整个页面
-const PAGE_SCROLL_RATIO = 0.2; 
+// 翻页距离：0.1 代表滚动当前窗口高度的 10%
+// 0.1 类似于 PageDown, 1.0 会滚动整个页面
+const PAGE_SCROLL_RATIO = 0.1; 
 
 // --- 核心逻辑 ---
 let gamepadIndex;
